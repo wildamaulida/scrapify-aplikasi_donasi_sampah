@@ -168,7 +168,7 @@ include "koneksi.php"
 <body class="bg-gray-100">
     <nav class="navbar">
         <a href="#" class="navbar-brand">
-            <img src="../images/logo2.png" alt="SCRAPIFY Logo" />
+            <img src="images/logo2.png" alt="SCRAPIFY Logo" />
             SCRAPIFY
         </a>
         <button class="navbar-toggler" id="navbar-toggler">
@@ -176,48 +176,44 @@ include "koneksi.php"
         </button>
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a href="../html/member-index.php" class="nav-link disabled" onclick="return false;">
+                <a href="member-index.php" class="nav-link disabled" onclick="return false;">
                     <i class="fas fa-home"></i> HOME
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../html/member-manajemen_donasi.php" class="nav-link disabled" onclick="return false;">
+                <a href="member-manajemen_donasi.php" class="nav-link disabled" onclick="return false;">
                     <i class="fas fa-hand-holding-heart"></i> DONASI
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../html/member-leaderboard.php" class="nav-link disabled" onclick="return false;">
+                <a href="member-leaderboard.php" class="nav-link disabled" onclick="return false;">
                     <i class="fas fa-trophy"></i> LEADERBOARD
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../html/member-reward.php" class="nav-link disabled" onclick="return false;">
+                <a href="member-reward.php" class="nav-link disabled" onclick="return false;">
                     <i class="fas fa-gift"></i> REWARD
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../html/member-edukasi.php" class="nav-link disabled" onclick="return false;">
+                <a href="member-edukasi.php" class="nav-link disabled" onclick="return false;">
                     <i class="fas fa-book"></i> EDUKASI
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../html/member-berita.php" class="nav-link disabled" onclick="return false;">
+                <a href="member-berita.php" class="nav-link disabled" onclick="return false;">
                     <i class="fas fa-newspaper"></i> BERITA
                 </a>
             </li>
 
         </ul>
-        <button id="logout-btn"
-            class="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-lg flex items-center logout-btn disabled" onclick="return false;">
-            <i class="fas fa-sign-out-alt"></i> Logout
-        </button>
     </nav>
 
     <script>
         function handleLogout() {
             const confirmLogout = confirm('Apakah Anda yakin ingin keluar?');
             if (confirmLogout) {
-                window.location.href = '../html/index.php';
+                window.location.href = 'index.php';
             }
         }
 
