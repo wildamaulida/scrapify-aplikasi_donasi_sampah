@@ -51,7 +51,7 @@ include "koneksi.php"; ?>
             overflow: hidden;
             background-image: 
                 linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
-                url('https://images.unsplash.com/photo-1606037150583-fb842a55bae7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+                url('images/6.jpeg');
             background-size: cover;
             background-position: center;
         }
@@ -189,13 +189,14 @@ include "koneksi.php"; ?>
         <div class="max-w-7xl mx-auto px-4 text-center relative z-10">
             <div class="logo-container">
                 <div class="logo">
-                    <img src="../images/logo2.png" alt="Scrapify Logo" class="animate-pulse">
+                    <img src="images/logo2.png" alt="Scrapify Logo" class="animate-pulse">
                 </div>
             </div>
             <h2 id="hero-title" class="text-4xl font-bold mb-4 opacity-0 typing-demo">SCRAPIFY</h2>
-            <p id="hero-subtitle" class="mb-8 text-lg opacity-0">Bergabunglah dengan kami untuk menciptakan lingkungan yang lebih bersih dan hijau.</p>
+            <p id="hero-subtitle" class="mb-8 text-lg opacity-0">Bergabunglah untuk mendonasikan sampahmu dan bantu menciptakan lingkungan yang lebih bersih, hijau, serta berkelanjutan.<br>
+            Kontribusi yang anda lakukan membuat bumi ini tetap sehat di masa depan</p>
             <div class="space-x-4">
-                <a href="../html/loginSebagai.php" 
+                <a href="loginSebagai.php" 
                    class="bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-lg text-lg font-semibold transition transform hover:scale-105 hover:shadow-lg animate-pulse hover-elevate">
                    Masuk ke Scrapify
                 </a>
@@ -211,7 +212,7 @@ include "koneksi.php"; ?>
                 <a href="#" 
                    class="block bg-white p-6 rounded-lg shadow-lg text-center card hover:shadow-xl transform hover:scale-105 transition duration-300 animate-slide-in">
                     <div class="relative">
-                        <img src="../images/setorSampah.jpeg" alt="Donasi Sampah" 
+                        <img src="images/setorSampah.jpeg" alt="Donasi Sampah" 
                              class="w-full h-40 object-cover rounded-t-lg mb-4 animate-float">
                         <div class="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded-full text-xs">Baru</div>
                     </div>
@@ -221,7 +222,7 @@ include "koneksi.php"; ?>
                 <a href="#" 
                    class="block bg-white p-6 rounded-lg shadow-lg text-center card hover:shadow-xl transform hover:scale-105 transition duration-300 animate-slide-in">
                     <div class="relative">
-                        <img src="../images/askAi.jpg" alt="Tanya AI" 
+                        <img src="images/askAi.jpg" alt="Tanya AI" 
                              class="w-full h-40 object-cover rounded-t-lg mb-4 animate-float">
                         <div class="absolute top-2 right-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs">AI Powered</div>
                     </div>
@@ -231,12 +232,14 @@ include "koneksi.php"; ?>
                 <a href="#" 
                    class="block bg-white p-6 rounded-lg shadow-lg text-center card hover:shadow-xl transform hover:scale-105 transition duration-300 animate-slide-in">
                     <div class="relative">
-                        <img src="../images/event.jpg" alt="Event" 
+                        <img src="images/9.jpeg" alt="Event" 
                              class="w-full h-40 object-cover rounded-t-lg mb-4 animate-float">
                         <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs">Populer</div>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Lihat Berita</h3>
-                    <p>Lihat Event agar Anda tetap updated tentang acara dan kampanye pengelolaan sampah, termasuk seminar, lokakarya, dan kegiatan bersih-bersih lingkungan.</p>
+                    <h3 class="text-xl font-semibold mb-3">Tukar Reward</h3>
+                    <p>
+                    Hasilkan uang dari sampah dengan cara menyumbangkan sampah Anda dan menukarkan poin yang dikumpulkan menjadi saldo e-wallet.
+                    </p>
                 </a>
             </div>
         </div>
