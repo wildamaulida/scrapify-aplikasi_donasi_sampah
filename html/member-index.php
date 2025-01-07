@@ -60,14 +60,14 @@
       }
 
       .hero-bg {
-        background: linear-gradient(135deg, #2ecc71, #27ae60);
+        /* background: linear-gradient(135deg, #2ecc71, #27ae60); */
         position: relative;
         overflow: hidden;
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.2),
             rgba(0, 0, 0, 0.2)
           ),
-          url("https://images.unsplash.com/photo-1606037150583-fb842a55bae7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+          url("images/6.jpeg");
         background-size: cover;
         background-position: center;
       }
@@ -206,7 +206,7 @@
         <div class="logo-container">
           <div class="logo">
             <img
-              src="../images/logo2.png"
+              src="images/logo2.png"
               alt="Scrapify Logo"
               class="animate-pulse"
             />
@@ -219,8 +219,8 @@
           SCRAPIFY
         </h2>
         <p id="hero-subtitle" class="mb-8 text-lg opacity-0">
-          Bergabunglah dengan kami untuk menciptakan lingkungan yang lebih
-          bersih dan hijau.
+        Bergabunglah untuk mendonasikan sampahmu dan bantu menciptakan lingkungan yang lebih bersih, hijau, serta berkelanjutan.<br>
+        Kontribusi yang anda lakukan membuat bumi ini tetap sehat di masa depan
         </p>
       </div>
     </section>
@@ -229,16 +229,16 @@
     <section id="services" class="py-20 bg-gray-100">
       <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-10 animate-slide-in">
-          Apa yang Ingin Anda Lakukan?
+          Fitur yang kami tawarkan
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <a
-            href="../html/member-manajemen_donasi.php"
+            href="member-manajemen_donasi.php"
             class="block bg-white p-6 rounded-lg shadow-lg text-center card hover:shadow-xl transform hover:scale-105 transition duration-300 animate-slide-in"
           >
             <div class="relative">
               <img
-                src="../images/setorSampah.jpeg"
+                src="images/setorSampah.jpeg"
                 alt="Donasi Sampah"
                 class="w-full h-40 object-cover rounded-t-lg mb-4 animate-float"
               />
@@ -255,12 +255,12 @@
             </p>
           </a>
           <a
-            href="../html/member-edukasi.php"
+            href="member-edukasi.php"
             class="block bg-white p-6 rounded-lg shadow-lg text-center card hover:shadow-xl transform hover:scale-105 transition duration-300 animate-slide-in"
           >
             <div class="relative">
               <img
-                src="../images/askAi.jpg"
+                src="images/askAi.jpg"
                 alt="Tanya AI"
                 class="w-full h-40 object-cover rounded-t-lg mb-4 animate-float"
               />
@@ -277,12 +277,12 @@
             </p>
           </a>
           <a
-            href="../html/member-berita.php"
+            href="member-berita.php"
             class="block bg-white p-6 rounded-lg shadow-lg text-center card hover:shadow-xl transform hover:scale-105 transition duration-300 animate-slide-in"
           >
             <div class="relative">
               <img
-                src="../images/event.jpg"
+                src="images/9.jpeg"
                 alt="Event"
                 class="w-full h-40 object-cover rounded-t-lg mb-4 animate-float"
               />
@@ -292,11 +292,9 @@
                 Populer
               </div>
             </div>
-            <h3 class="text-xl font-semibold mb-3">Lihat Berita</h3>
+            <h3 class="text-xl font-semibold mb-3">Tukar Reward</h3>
             <p>
-              Lihat Berita terbaru agar Anda tetap updated tentang acara dan kampanye
-              pengelolaan sampah, termasuk seminar, lokakarya, dan kegiatan
-              bersih-bersih lingkungan.
+            Hasilkan uang dari sampah dengan cara menyumbangkan sampah Anda dan menukarkan poin yang dikumpulkan menjadi saldo e-wallet.
             </p>
           </a>
         </div>
